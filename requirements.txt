@@ -22,7 +22,7 @@
 #  =>  TIP: get the conda-aware version of pip to INSTALL fecon236:
 #  
 #       conda install pip virtualenv
-$
+#
 #       pip install --pre fecon236
 #       pip install --upgrade fecon236
 #       pip uninstall fecon236
@@ -48,13 +48,14 @@ $
 #
 # =================================== At the bare MINIMUM, require... =========
 
-pandas==0.22.0
-numpy==1.14.3
-scipy==1.1.0
-statsmodels==0.8.0
-matplotlib==2.2.2
-sympy==1.1.1
-pandas-datareader==0.6.0
+pandas>=0.22.0
+numpy>=1.14.3
+scipy>=1.1.0
+statsmodels>=0.8.0
+matplotlib>=2.2.2
+sympy>=1.1.1
+pandas-datareader>=0.6.0
+FooFinder>=3.0.35
 
 #  pandas is the CORNERSTONE which should dictate the best numpy version.
 #  All else should be compatible with those two package.
