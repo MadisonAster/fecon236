@@ -130,7 +130,7 @@ setup(
     url=PROJECTURL,
     project_urls={
         'Source': PROJECTURL,
-        'Require': PROJECTURL+'/blob/develop/require.txt',
+        'Require': PROJECTURL+'/blob/develop/requirements.txt',
         'Installation': PROJECTURL+'/blob/develop/docs/READ/fe-10_Install.md',
         'Documentation': PROJECTURL+'/tree/develop/docs',
         'Notebooks': 'https://github.com/rsvp/fecon235/tree/master/nb',
